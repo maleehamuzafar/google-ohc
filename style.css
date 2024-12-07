@@ -50,3 +50,60 @@ body {
 	border-radius: 50%;
 	background-color: #2f3135;
 }
+
+/* Search Section */
+#search {
+	margin: 0 auto;
+	text-align: center;
+	flex-grow: 1;
+}
+
+.logo {
+	height: 92px;
+}
+
+#search-input {
+	margin: 20px auto;
+	border-radius: 40px;
+	background-color: #4d5157;
+	width: 548px;
+	min-height: 48px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	gap: 15px;
+	padding: 0 15px 0 15px;
+}
+
+#search-input input {
+	outline: none;
+	border-radius: inherit;
+	border: none;
+	background: none;
+	color: white;
+	flex-grow: 1;
+	font-size: large;
+}
+
+.vl {
+	border-left: 1px solid #9aa0a6;
+	height: 1.7rem;
+}
+
+button {
+	all: unset;
+	background: #303134;
+	padding: 0 15px;
+	height: 36px;
+	font-size: 0.9rem;
+	border-radius: 4px;
+	margin: 11px 4px;
+}
+
+.caption {
+	font-size: 0.8rem;
+}
+
+.caption a {
+	text-decoration: none;
+}
