@@ -2,4 +2,51 @@ body {
 	color: white;
 	background-color: #202124;
 	margin: 0 auto;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+	display: flex;
+	justify-content: end;
+	font-size: 0.83rem;
+}
+
+.links {
+	display: flex;
+	align-items: center;
+}
+
+.link-item,
+.link-icon {
+	color: white;
+	margin-right: 15px;
+	list-style-type: none;
+}
+
+.link-item a {
+	color: white;
+	text-decoration: none;
+}
+
+.link-item:hover {
+	text-decoration: underline solid white;
+}
+
+.icon {
+	width: 24px;
+	height: 24px;
+}
+
+.profile-pic {
+	width: 32px;
+	height: 32px;
+}
+
+.link-icon {
+	padding: 8px;
+}
+
+.link-icon:hover {
+	border-radius: 50%;
+	background-color: #2f3135;
 }
